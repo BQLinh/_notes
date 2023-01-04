@@ -1,0 +1,98 @@
+# Backend
+    Flask
+
+    FastAPI
+
+    Django / Django Rest Framework / Django GraphQL
+
+    NestJs, NodeJs, ExpressJS
+============================================================
+# Frontend
+    VueJS
+
+    ReactJS
+
+    Angular
+
+    Astro
+============================================================
+# AI
+    Pandas, Numpy, Matplotlib
+
+    Keras
+
+    Tensorflow
+============================================================
+# Test
+    Unit Test, Test Coverage
+
+    Automation Test: Selenium, Appium, RPA, Jmeter
+============================================================
+# Storage
+    Mysql, PostgreSQL
+
+    MongoDB
+
+    Firebase
+
+    ElasticSearch
+============================================================
+# Cloud
+    AWS
+
+    Azure
+
+    Google Cloud
+============================================================
+# Others
+Caching: Redis, Memcache
+
+Docker, Kubernetes
+
+Webserver: Nginx, Apache
+
+Celery, Swagger
+
+Git, Gitlab: CI/CD, Quality Gates, Github Actions
+
+Hadoop. Spark, Kafka
+
+Distributed Computing
+
+Microservice
+
+Sonarqube
+
+MQ
+============================================================
+Tối ưu truy vấn 
+
+Đồng bộ data 
+=============================================================
+Basic
+Multithreading
+
+List, tuple, dict, set
+
+Lambda function
+
+Decorator, Middleware
+
+Algorithms, Data Structure
+
+OOP
+Encapsulation: Đóng gói
+Polymorphism: Đa hình
+Abstraction: Trừu tượng
+Inheritance: Kế thừa
+
+Design pattern, Principles
+
+=============================================================
+Machine Learning, Deep learning, Math
+
+Blockchain
+
+Data Science
+
+

@@ -1,0 +1,77 @@
+                    Code		
+========================================================
+30 minutes everyday (2 hours in the morning). Deadline 31/1
+	Django + Angular  
+
+    HTML/CSS/JS <2 tuần HTML, CSS, 2 tuần JS>
+	
+	Nginx 
+
+	Docker Kubernetes
+========================================================
+
+			Tiếp
+========================================================
+30 minutes everyday (2 hours in the morning). Deadline 28/2
+	Flask	
+
+	Nodejs/React
+
+	Postgres
+
+	Aws
+========================================================
+
+			Tiếp
+========================================================
+30 minutes everyday (2 hours in the morning). Deadline 31/3
+	Flask
+
+	Vue
+
+	Postgres	
+
+
+========================================================
+Khả năng tư duy, cách giải quyết vấn đề, ghi nhớ, tập trung
+
+Thuật toán, vấn đề lớn trong IT, sử lý hệ thống lớn. Design pattern, clean code
+
+Microservice
+
+Sau 6 tháng:
+	
+	JavaScript,HTML,CSS,Jquery,Ajax,Node,React
+
+	Python,Flask,Django,FastAPI
+	
+	MongoDB,MySQL,Postgre
+	
+
+Algorithms
+
+Docker, kebernetes
+
+GraphQL
+
+Git
+
+Command line
+
+Clean code
+
+Agile-Scrum
+
+Security
+
+Typing speed
+
+Linux
+
+AWS
+
+Design pattern
+
+Web performance
+
+Threading
