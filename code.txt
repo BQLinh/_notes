@@ -3,7 +3,7 @@
 30 minutes everyday (2 hours in the morning). Deadline 31/1
 	Django + Angular  
 
-    HTML/CSS/JS <2 tuần HTML, CSS, 2 tuần JS>
+  HTML/CSS/JS <2 tuần HTML, CSS, 2 tuần JS>
 	
 	Nginx 
 
@@ -30,8 +30,6 @@
 	Vue
 
 	Postgres	
-
-
 ========================================================
 Khả năng tư duy, cách giải quyết vấn đề, ghi nhớ, tập trung
 
@@ -74,4 +72,4 @@ Design pattern
 
 Web performance
 
-Threading
+Threading, multiprocessing

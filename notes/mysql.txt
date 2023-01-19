@@ -1,0 +1,106 @@
+####################
+* import sql file to docker => docker exec -i mysql_container mysql -uroot -psecret mysql < db.sql
+
+sudo docker exec -i dr_api_mysql8_1 mysql -uroot -pnFgw6pgq dr < dr.sql
+
+sudo docker exec -i psc_app_db mysql -uroot -psecret psc_app < psc_app.sql
+
+sudo docker exec -i signite_report_mysql mysql -usignite -pMiichisoft0104 signite_report < mst_meshes.sql  
+
+sudo docker-compose exec dr-api python manage.py
+
+sudo docker exec -it dr_api_mysql8_1 bash
+
+mysql -u dr_user -p
+kVmYZE3k
+
+mysql -u root -p
+nFgw6pgq
+
+# postgres
+sudo docker exec -it postgres bash
+
+psql -U debug -d invoice_ms
+
+psql -U debug -l
+psql -U debug -d postgres
+psql -U debug -d postgres -c "DROP DATABASE invoice_ms";
+
+
+#####################
+docker image rm
+docker image ls
+
+
+#test db
+mysql -u root -p
+
+grant all privileges on *.* to 'dr_user'@'%';
+
+grant all privileges on *.* to 'laravel_user';
+## server
+docker exec dr_api python manage.py insertmasterdata
+#################
+git stash
+git stash apply
+git stash list
+
+git fetch
+
+git pull     
+
+git commit -m '...'
+git push -u origin feature/#xxx
+
+git config user.name "abc"
+git config user.email "abc"
+git config --list
+git init
+git clone url
+git remote -v
+
+git checkout --track origin/abc
+
+xclip -sel clip < ~/.ssh/id_rsa.pub
+
+##############
+Ctrl+Alt+Shift+R
+gsettings set org.gnome.settings-daemon.plugins.media-keys max-screencast-length 1800
+
+#################
+curl -H "Authorization: Token eaf99e55204e09c5d880cc046cba6a03f680bd4a" http://localhost:8000/invoices/seller/add
+
+
+
+##############
+docker exec -it dr_frontend_company yarn install
+
+git reset --hard 50a99d296c8ab86a2e9f97a9d7bb2b3643bc411a
+
+docker exec -it dr_frontend_company npm install
+
+
+sudo docker-compose exec dr-api python manage.py test app.tests.test_get_toplist_message
+
+
+ssh dr-willtech@192.168.1.100
+Dr@2021
+
+
+#
+sudo apt-get install network-manager-l2tp network-manager-l2tp-gnome
+
+#get reset develop commit 
+
+docker-compose exec api python3 manage.py shell 
+
+
+##################################
+git reset --soft HEAD~1
+git reset --hard origin
+
+## rebuild boot options
+
+
+# git: fatal: Unsupported SSL backend 'schannel'. Supported SSL backends: gnutls
+git config --global --unset http.sslBackend 
