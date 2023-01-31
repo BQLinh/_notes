@@ -10,5 +10,13 @@
   + middleware
     + next()
   + connect to db
-  
+
+- arrow fucntion
+
 - callback function
+
+- promise
+
+- async await
+
+- Observable
