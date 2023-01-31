@@ -1,0 +1,14 @@
+- npx
+- npm
+- express
+  + routing:
+    + redirect
+    + send data
+  + ejs
+    + partial
+    + public file
+  + middleware
+    + next()
+  + connect to db
+  
+- callback function
