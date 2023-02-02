@@ -9,7 +9,10 @@
     + public file
   + middleware
     + next()
+    + parse data to request with urlencoded()
   + connect to db
+    - mongoose
+      + connect with auth
 
 - arrow fucntion
 
