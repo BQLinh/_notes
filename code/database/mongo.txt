@@ -1,0 +1,5 @@
+# access to mongo
+mongosh -u root -p 1234 --port 7000 --authenticationDatabase 
+
+# create an accoun on mongo
+db.createUser(  {    user: "A36664",    pwd: "12345",    roles: [ { role: "dbOwner", db: "DevBarPubDb" } ]  })

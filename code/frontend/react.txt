@@ -1,0 +1,26 @@
+useState: thay đổi giá trị của biên
+
+useEffect
+
+useRef
+
+props => pass data from parent to child
+
+map() => to display data from list
+
+filter => filter list
+
+function on click, call function
+
+arrow function
+
+...my_list
+
+hook? in react
+
+#################
+- muốn làm frontend
+- cần phải học hỏi và đc m.n giúp đỡ nhiều
+- chăm chỉ cày quốc hơn
+#################
+setActiveLearningObject
