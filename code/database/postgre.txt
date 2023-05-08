@@ -1,0 +1,3 @@
+psql -U postgres
+
+\du : list users and roles
