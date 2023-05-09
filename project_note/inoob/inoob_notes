@@ -1,0 +1,16 @@
+links: 
++ https://github.com/minhng92/odoo-14-docker-compose
++ https://www.youtube.com/watch?v=XrPURF5my9s
+
+accounts:
++ samuli@nerdcloud.co / s07Ue$kx%uTQ
+
+- put folder into package
+
+- back up database: both sql file and filestore
+
+- change config in odoo.conf
+
+- install new package
+
+- use account admin to login, change password in table res_users

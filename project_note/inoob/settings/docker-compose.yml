@@ -1,0 +1,50 @@
+version: '2'
+services:
+  db:
+    container_name: inoob_db2
+    image: postgres:13
+    user: root
+    ports:
+      - 5555:5432
+    environment:
+      - POSTGRES_PASSWORD=odoo
+      - POSTGRES_USER=odoo
+      - POSTGRES_DB=inoob_db2
+    restart: always             # run as a service
+    volumes:
+        - ./postgresql:/var/lib/postgresql/data
+  
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 10015:8080
+
+  odoo14:
+    container_name: inoob_odoo2
+    image: odoo:14
+    user: root
+    depends_on:
+      - db
+    ports:
+      - "10014:8069"
+      - "20014:8072" # live chat
+    tty: true
+    command: --
+#    command: odoo scaffold /mnt/extra-addons/custom_module
+    environment:
+      - HOST=db
+      - USER=odoo
+      - PASSWORD=odoo
+    volumes:
+      #- /etc/timezone:/etc/timezone:ro
+      #- /etc/localtime:/etc/localtime:ro
+      - ./entrypoint.sh:/entrypoint.sh   # if you want to install additional Python packages, uncomment this line!
+
+      - ./addons_entp:/mnt/addons_entp
+      - ./ylo-addons/bundles/sprintit_accounting_super:/mnt/ylo-addons/bundles/sprintit_accounting_super
+      - ./ylo-addons/sprintit:/mnt/ylo-addons/sprintit
+      - ./addons:/mnt/extra-addons
+      - ./etc:/etc/odoo
+    restart: always             # run as a service
+    
