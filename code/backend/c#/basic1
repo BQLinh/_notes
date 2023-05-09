@@ -1,0 +1,24 @@
+Tech Spec
+  Interface
+  Abstract Class
+
+  + Same:
+    Codetime, Compiletime
+
+  + Diff:
+    Interface: full abstraction
+    Abstract class: half abstraction
+
+Encapsulation
+  + export user needed information
+  + make not needed informantion behind from user view => access modifier / public / private / protected
+
+**DI
+- I want
+lose coupling => depend on an abstraction, not an impelementation
+
+- Solution
+
+IDispose
+
+TDD
