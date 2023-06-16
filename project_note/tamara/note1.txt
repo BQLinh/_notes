@@ -1,3 +1,4 @@
 # run on docker
 - make up 
 - change configs host db => wishlist-db:3306
+- install mockery
